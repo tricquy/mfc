@@ -1,0 +1,36 @@
+#content {
+	max-width:800px;
+	margin:auto;
+	color:#003c71;
+	padding-bottom:40px;
+	font-family:Verdana, Geneva, sans-serif
+}
+
+.texte {
+	padding:20px 0px 20px 5px;
+}
+
+#bouton {
+	text-align:center;
+}
+
+h2 {
+	text-align:center;
+}
+
+td {
+    border:1px solid #003c71;
+	padding:10px;
+	color:#003c71;
+}
+
+table {
+    width: 100%;
+}
+
+label {
+    cursor: pointer;
+    display: block;
+    text-align: center;
+	color:#003c71;
+}
