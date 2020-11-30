@@ -157,3 +157,25 @@ function valider(r) {
 		}
 	}
 }
+
+function afficher() {
+	
+	if ("resilience" in localStorage) {
+		document.getElementById("resilience").src = "img/" + sessionStorage.getItem("resilience") + ".png";
+	}
+	if ("perspective" in localStorage) {
+		document.getElementById("perspective").src = "img/" + sessionStorage.getItem("perspective") + ".png";
+	}
+	if ("intuition" in localStorage) {
+		document.getElementById("intuition").src = "img/" + sessionStorage.getItem("intuition") + ".png";
+	}
+	if ("conscience" in localStorage) {
+		document.getElementById("conscience").src = "img/" + sessionStorage.getItem("conscience") + ".png";
+	}
+	if ("sensibilite" in localStorage) {
+		document.getElementById("sensibilite").src = "img/" + sessionStorage.getItem("sensibilite") + ".png";
+	}
+	if ("attention" in localStorage) {
+		document.getElementById("attention").src = "img/" + sessionStorage.getItem("attention") + ".png";
+	}
+}
