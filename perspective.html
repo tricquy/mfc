@@ -4,7 +4,7 @@
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script> 
 	</head>
-	<body>
+	<body onLoad="valider(2)">
     	<div id="content">
         	<img src="img/logos.png">
             <div class="texte">
@@ -13,8 +13,8 @@
                 qu’elle vous correspond ou non. Répondez le plus rapidement possible, sans chercher à trop réfléchir : c’est ainsi que 
                 vous obtiendrez les résultats les plus exacts. N.B. Le masculin comprend le féminin.
             </div>
-            <h2>RÉSILIENCE</h2>
-            <form action="perspective.html">
+            <h2>PERSPECTIVE</h2>
+            <form>
             	<table>
                 	<tr>
     					<td colspan="2">
@@ -23,8 +23,8 @@
                         </td>
   					</tr>
                     <tr>
-                        <td><label for="v1"><input type="radio" id="v1" name="q1" onclick="valider();" value="0" required />&nbsp;Vrai</label></td>
-                        <td><label for="f1"><input type="radio" id="f1" name="q1" onclick="valider();" value="1" />&nbsp;Faux</label></td>
+                        <td><label for="v1"><input type="radio" id="v1" name="q1" onClick="valider(2);" value="0" required />&nbsp;Vrai</label></td>
+                        <td><label for="f1"><input type="radio" id="f1" name="q1" onClick="valider(2);" value="1" />&nbsp;Faux</label></td>
                     </tr>
                     <tr>
     					<td colspan="2">
@@ -33,8 +33,8 @@
                         </td>
   					</tr>
                     <tr>
-                        <td><label for="v2"><input type="radio" id="v2" name="q2" onclick="valider();" value="1" required />&nbsp;Vrai</label></td>
-                        <td><label for="f2"><input type="radio" id="f2" name="q2" onclick="valider();" value="0" />&nbsp;Faux</label></td>
+                        <td><label for="v2"><input type="radio" id="v2" name="q2" onClick="valider(2);" value="1" required />&nbsp;Vrai</label></td>
+                        <td><label for="f2"><input type="radio" id="f2" name="q2" onClick="valider(2);" value="0" />&nbsp;Faux</label></td>
                     </tr>
                     <tr>
     					<td colspan="2">
@@ -43,8 +43,8 @@
                         </td>
   					</tr>
                     <tr>
-                        <td><label for="v3"><input type="radio" id="v3" name="q3" onclick="valider();" value="0" required />&nbsp;Vrai</label></td>
-                        <td><label for="f3"><input type="radio" id="f3" name="q3" onclick="valider();" value="1" />&nbsp;Faux</label></td>
+                        <td><label for="v3"><input type="radio" id="v3" name="q3" onClick="valider(2);" value="0" required />&nbsp;Vrai</label></td>
+                        <td><label for="f3"><input type="radio" id="f3" name="q3" onClick="valider(2);" value="1" />&nbsp;Faux</label></td>
                     </tr>
                     <tr>
     					<td colspan="2">
@@ -53,8 +53,8 @@
                         </td>
   					</tr>
                     <tr>
-                        <td><label for="v4"><input type="radio" id="v4" name="q4" onclick="valider();" value="1" required />&nbsp;Vrai</label></td>
-                        <td><label for="f4"><input type="radio" id="f4" name="q4" onclick="valider();" value="0" />&nbsp;Faux</label></td>
+                        <td><label for="v4"><input type="radio" id="v4" name="q4" onClick="valider(2);" value="1" required />&nbsp;Vrai</label></td>
+                        <td><label for="f4"><input type="radio" id="f4" name="q4" onClick="valider(2);" value="0" />&nbsp;Faux</label></td>
                     </tr>
                     <tr>
     					<td colspan="2">
@@ -63,8 +63,8 @@
                         </td>
   					</tr>
                     <tr>
-                        <td><label for="v5"><input type="radio" id="v5" name="q5" onclick="valider();" value="0" required />&nbsp;Vrai</label></td>
-                        <td><label for="f5"><input type="radio" id="f5" name="q5" onclick="valider();" value="1" />&nbsp;Faux</label></td>
+                        <td><label for="v5"><input type="radio" id="v5" name="q5" onClick="valider(2);" value="0" required />&nbsp;Vrai</label></td>
+                        <td><label for="f5"><input type="radio" id="f5" name="q5" onClick="valider(2);" value="1" />&nbsp;Faux</label></td>
                     </tr>
                     <tr>
     					<td colspan="2">
@@ -73,8 +73,8 @@
                         </td>
   					</tr>
                     <tr>
-                        <td><label for="v6"><input type="radio" id="v6" name="q6" onclick="valider();" value="0" required />&nbsp;Vrai</label></td>
-                        <td><label for="f6"><input type="radio" id="f6" name="q6" onclick="valider();" value="1" />&nbsp;Faux</label></td>
+                        <td><label for="v6"><input type="radio" id="v6" name="q6" onClick="valider(2);" value="0" required />&nbsp;Vrai</label></td>
+                        <td><label for="f6"><input type="radio" id="f6" name="q6" onClick="valider(2);" value="1" />&nbsp;Faux</label></td>
                     </tr>
                     <tr>
     					<td colspan="2">
@@ -83,8 +83,8 @@
                         </td>
   					</tr>
                     <tr>
-                        <td><label for="v7"><input type="radio" id="v7" name="q7" onclick="valider();" value="1" required />&nbsp;Vrai</label></td>
-                        <td><label for="f7"><input type="radio" id="f7" name="q7" onclick="valider();" value="0" />&nbsp;Faux</label></td>
+                        <td><label for="v7"><input type="radio" id="v7" name="q7" onClick="valider(2);" value="1" required />&nbsp;Vrai</label></td>
+                        <td><label for="f7"><input type="radio" id="f7" name="q7" onClick="valider(2);" value="0" />&nbsp;Faux</label></td>
                     </tr>
                     <tr>
     					<td colspan="2">
@@ -94,8 +94,8 @@
                         </td>
   					</tr>
                     <tr>
-                        <td><label for="v8"><input type="radio" id="v8" name="q8" onclick="valider();" value="0" required />&nbsp;Vrai</label></td>
-                        <td><label for="f8"><input type="radio" id="f8" name="q8" onclick="valider();" value="1" />&nbsp;Faux</label></td>
+                        <td><label for="v8"><input type="radio" id="v8" name="q8" onClick="valider(2);" value="0" required />&nbsp;Vrai</label></td>
+                        <td><label for="f8"><input type="radio" id="f8" name="q8" onClick="valider(2);" value="1" />&nbsp;Faux</label></td>
                     </tr>
                     <tr>
     					<td colspan="2">
@@ -104,8 +104,8 @@
                         </td>
   					</tr>
                     <tr>
-                        <td><label for="v9"><input type="radio" id="v9" name="q9" onclick="valider();" value="1" required />&nbsp;Vrai</label></td>
-                        <td><label for="f9"><input type="radio" id="f9" name="q9" onclick="valider();" value="0" />&nbsp;Faux</label></td>
+                        <td><label for="v9"><input type="radio" id="v9" name="q9" onClick="valider(2);" value="1" required />&nbsp;Vrai</label></td>
+                        <td><label for="f9"><input type="radio" id="f9" name="q9" onClick="valider(2);" value="0" />&nbsp;Faux</label></td>
                     </tr>
                     <tr>
     					<td colspan="2">
@@ -115,13 +115,13 @@
                         </td>
   					</tr>
                     <tr>
-                        <td><label for="v10"><input type="radio" id="v10" name="q10" onclick="valider();" value="0" required />&nbsp;Vrai</label></td>
-                        <td><label for="f10"><input type="radio" id="f10" name="q10" onclick="valider();" value="1" />&nbsp;Faux</label></td>
+                        <td><label for="v10"><input type="radio" id="v10" name="q10" onClick="valider(2);" value="0" required />&nbsp;Vrai</label></td>
+                        <td><label for="f10"><input type="radio" id="f10" name="q10" onClick="valider(2);" value="1" />&nbsp;Faux</label></td>
                     </tr>
 				</table>
-                <div class="texte" id="r1"></div><br><br>
+                <div class="texte" id="r2"></div><br><br>
                 <div id="bouton">
-                	<input type="image" src="img/bouton1.png" onmouseover="this.src='img/bouton2.png'" onmouseout="this.src='img/bouton1.png'" onclick="sauvegarder();">
+                	<input type="image" src="img/bouton1.png" onMouseOver="this.src='img/bouton2.png'" onMouseOut="this.src='img/bouton1.png'" onClick="sauvegarder();">
                 </div>
             </form>
         </div>
