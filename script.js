@@ -108,10 +108,13 @@ function valider() {
 		if (document.getElementById('f10').checked) {
   			valeur = valeur + parseInt(document.getElementById('f10').value);
 		}
-		
+		/*
 		document.getElementById("r1").innerHTML = "<b>R &eacute; s u l t a t : </b>Pour les questions 1, 3, 5, 6, 8 et 10, comptez un point chaque fois que vous avez r&eacute;pondu &laquo; faux &raquo;, z&eacute;ro point si vous avez r&eacute;pondu &laquo; vrai &raquo;. Pour les questions 2, 4, 7 et 9, comptez un point chaque fois que vous avez r&eacute;pondu &laquo; vrai &raquo; et z&eacute;ro point si vous avez r&eacute;pondu &laquo; faux &raquo;.<br><br>Plus votre score est faible, plus vous peinez &agrave; vous remettre d&rsquo;une &eacute;motion n&eacute;gative. Tout score inf&eacute;rieur &agrave; trois points indique que vous poss&eacute;dez un faible niveau de r&eacute;silience, et donc que vous &ecirc;tes lent &agrave; r&eacute;cup&eacute;rer apr&egrave;s une &eacute;preuve. Si vous avez obtenu plus de sept points, en revanche, vous &ecirc;tes rapide &agrave; r&eacute;cup&eacute;rer et tout &agrave; fait r&eacute;silient. <br><br>Si les questions couvrent une large gamme d&rsquo;incidents, allant du plus futile (question 5) au plus grave (question 3), c&rsquo;est parce que la r&eacute;cup&eacute;ration apr&egrave;s les d&eacute;fis mineurs inflig&eacute;s pendant une exp&eacute;rience, comme une br&ucirc;lure ou l&rsquo;apparition d&rsquo;une image d&eacute;rangeante, est directement li&eacute;e &agrave; la mani&egrave;re de r&eacute;agir &agrave; l&rsquo;adversit&eacute; de la vie en g&eacute;n&eacute;ral, et en particulier &agrave; la vitesse de r&eacute;cup&eacute;ration. La r&eacute;silience face aux petites choses est donc un bon indicateur de ce qu&rsquo;elle sera face aux grandes.";
-		
+		*/
 		valide = true;
+	}
+	else {
+		document.getElementById("r1").innerHTML = "";
 	}
 }
 
