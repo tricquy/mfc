@@ -160,22 +160,22 @@ function valider(r) {
 
 function afficher() {
 	
-	if ("resilience" in localStorage) {
+	if ("resilience" in sessionStorage) {
 		document.getElementById("resilience").src = "img/" + sessionStorage.getItem("resilience") + ".png";
 	}
-	if ("perspective" in localStorage) {
+	if ("perspective" in sessionStorage) {
 		document.getElementById("perspective").src = "img/" + sessionStorage.getItem("perspective") + ".png";
 	}
-	if ("intuition" in localStorage) {
+	if ("intuition" in sessionStorage) {
 		document.getElementById("intuition").src = "img/" + sessionStorage.getItem("intuition") + ".png";
 	}
-	if ("conscience" in localStorage) {
+	if ("conscience" in sessionStorage) {
 		document.getElementById("conscience").src = "img/" + sessionStorage.getItem("conscience") + ".png";
 	}
-	if ("sensibilite" in localStorage) {
+	if ("sensibilite" in sessionStorage) {
 		document.getElementById("sensibilite").src = "img/" + sessionStorage.getItem("sensibilite") + ".png";
 	}
-	if ("attention" in localStorage) {
+	if ("attention" in sessionStorage) {
 		document.getElementById("attention").src = "img/" + sessionStorage.getItem("attention") + ".png";
 	}
 }
