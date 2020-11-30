@@ -120,12 +120,40 @@ function valider(r) {
 		}
 		
 		switch (parseInt(r)) {
-			case 1: document.getElementById("r1").innerHTML = resultat1; break;
-			case 2: document.getElementById("r2").innerHTML = resultat2; break;
-			case 3: document.getElementById("r3").innerHTML = resultat3; break;
-			case 4: document.getElementById("r4").innerHTML = resultat4; break;
-			case 5: document.getElementById("r5").innerHTML = resultat5; break;
-			case 6: document.getElementById("r6").innerHTML = resultat6;
+			case 1:
+				document.getElementById("r1").innerHTML = resultat1;
+				sessionStorage.setItem("resilience", valeur.toString());
+				break;
+			case 2:
+				document.getElementById("r2").innerHTML = resultat2;
+				sessionStorage.setItem("perspective", valeur.toString());
+				break;
+			case 3:
+				document.getElementById("r3").innerHTML = resultat3;
+				sessionStorage.setItem("intuition", valeur.toString());
+				break;
+			case 4:
+				document.getElementById("r4").innerHTML = resultat4;
+				sessionStorage.setItem("conscience", valeur.toString());
+				break;
+			case 5:
+				document.getElementById("r5").innerHTML = resultat5;
+				sessionStorage.setItem("sensibilite", valeur.toString());
+				break;
+			case 6:
+				document.getElementById("r6").innerHTML = resultat6;
+				sessionStorage.setItem("attention", valeur.toString());
+		}
+	}
+	else {
+		
+		switch (parseInt(r)) {
+			case 1: sessionStorage.removeItem("resilience"); break;
+			case 2: sessionStorage.removeItem("perspective"); break;
+			case 3: sessionStorage.removeItem("intuition"); break;
+			case 4: sessionStorage.removeItem("conscience"); break;
+			case 5: sessionStorage.removeItem("sensibilite"); break;
+			case 6: sessionStorage.removeItem("attention");
 		}
 	}
 }
